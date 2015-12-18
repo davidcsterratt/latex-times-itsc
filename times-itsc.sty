@@ -1,0 +1,25 @@
+% General Small Caps family by Daniel TAUPIN, May 1996, fit for
+% EC fonts
+% Modified for the faked itsc font by David Sterratt
+% <david.c.sterratt@ed.ac.uk>, Jan 2005
+
+\usepackage{times}
+
+\ifx\scfamily\undefined\else\endinput\fi
+
+\def\Scdefault{ptmsc}
+
+\DeclareRobustCommand\scfamily
+        {\not@math@alphabet\scfamily\mathrm
+         \fontfamily\Scdefault\selectfont}
+
+\DeclareTextFontCommand{\textsc}{\scfamily}
+\renewcommand{\scshape}{\scfamily}
+
+%\let\scshape\undefined
+
+\expandafter\def\csname sc \endcsname{\@fontswitch
+ {\normalfont \scfamily}{\mathrm }}
+
+\endinput
+

@@ -1,0 +1,23 @@
+% This came from comp.text.tex -- unfortunately I can't remember who
+% wrote it
+
+\input fontinst.sty
+
+\installfonts
+\transformfont{ptmr8r}{\reencodefont{8r}{\fromafm{ptmr8a}}}
+\transformfont{ptmri8r}{\reencodefont{8r}{\fromafm{ptmri8a}}}
+\installfamily{T1}{ptmsc}{}
+\installfont{ptmscr8t}{ptmr8r,latin}{T1c}{T1}{ptmsc}{m}{n}{}
+\installfont{ptmscri8t}{ptmri8r,latin}{T1c}{T1}{ptmsc}{m}{it}{}
+\installfamily{OT1}{ptmsc}{}
+\installfont{ptmscr7t}{ptmr8r,latin}{T1c}{OT1}{ptmsc}{m}{n}{}
+\installfont{ptmscri7t}{ptmri8r,latin}{T1c}{OT1}{ptmsc}{m}{it}{}
+\endinstallfonts
+\bye
+
+
+
+%%% Local Variables: 
+%%% mode: plain-tex
+%%% TeX-master: t
+%%% End: 
