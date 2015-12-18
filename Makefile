@@ -15,6 +15,7 @@ default:
 
 clean:
 	rm -Rf *.log *.fd *.mtx *.pl *.vpl *.tfm *.vf *.aux *.dvi *.afm fonts tex
+	cd test; rm -f *.log *.dvi *.pdf *.aux
 
 distclean: clean
 	rm -f times-itsc.tar.gz
