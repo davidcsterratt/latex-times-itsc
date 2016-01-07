@@ -6,6 +6,8 @@ Standard LaTeX does not provide italic small caps. For example,
 \usepackage{times}
 \begin{document}
 \textsc{Hello \emph{world}}
+
+\textsc{Hello \emph{\textbf{world}}}
 \end{document}
 ```
 produces:
@@ -33,12 +35,15 @@ The files are generated using fontinst; to generate the files:
 
 ## Acknowledgements
 
-Thanks to [Daniel Ashbrook](https://wiki.cc.gatech.edu/ccg/people/dan)
-for helpful comments on an earlier version of this page.
+Thanks to:
+* [Daniel Ashbrook](https://wiki.cc.gatech.edu/ccg/people/dan)
+for helpful comments on an earlier version of the package.
+* [jjulino](https://github.com/jjulino) for implement bold italic
+  small caps.
 
 <!--  LocalWords:  LaTeX documentclass usepackage textsc emph img gz
  -->
 <!--  LocalWords:  itsc texmf mktexlsr texhash fontinst ptmr afm tex
  -->
-<!--  LocalWords:  Debian Ubuntu texlive Ashbrook
+<!--  LocalWords:  Debian Ubuntu texlive Ashbrook textbf jjulino
  -->
