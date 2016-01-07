@@ -37,8 +37,8 @@ The files are generated using fontinst; to generate the files:
 
 Thanks to:
 * [Daniel Ashbrook](https://wiki.cc.gatech.edu/ccg/people/dan)
-for helpful comments on an earlier version of the package.
-* [jjulino](https://github.com/jjulino) for implement bold italic
+  for helpful comments on an earlier version of the package.
+* [jjulino](https://github.com/jjulino) for implementing bold italic
   small caps.
 
 <!--  LocalWords:  LaTeX documentclass usepackage textsc emph img gz
